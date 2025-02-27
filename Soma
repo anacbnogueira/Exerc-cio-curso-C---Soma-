@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+ 
+     int main () {
+
+    int num1, num2, Soma;
+
+printf ("insira o primeiro numero :   ");
+ 
+scanf ("%d", &num1);
+
+printf("insira o segundo numero :   ");
+ 
+scanf ("%d", &num2);
+
+Soma= num1+num2;
+
+printf (" O valor totalé  é %d\n", Soma );
+
+return 0;
+}
